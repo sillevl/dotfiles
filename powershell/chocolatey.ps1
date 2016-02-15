@@ -15,7 +15,3 @@ putty                                                     ^
 vim                                                       ^
 curl                                                      ^
 poshgit                                                   ^
-
-
-#vim
-../vim/vundle.ps1
