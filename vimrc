@@ -13,6 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 " **************************************
 
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdTree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'tpope/vim-fugitive'
@@ -25,7 +26,13 @@ Plugin 'airblade/vim-gitgutter'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-
-
 syntax on
 set number
+
+" show vim airline at all times
+set laststatus=2
+
+let g:airline_powerline_fonts = 1
+set t_Co=256
+let g:airline#extensions#tabline#enabled = 1
+set background=dark
