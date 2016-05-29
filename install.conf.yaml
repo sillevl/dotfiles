@@ -5,6 +5,7 @@
 - clean: ['~']
 
 - link:
+    ~/.dotfiles: ""
     ~/.vimrc: vimrc
     ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
