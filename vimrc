@@ -38,5 +38,5 @@ set t_Co=256
 let g:airline#extensions#tabline#enabled = 1
 set background=dark
 
-# NERDTree
+" NERDTree
 map <C-n> :NERDTreeToggle<CR>
