@@ -28,6 +28,7 @@ filetype plugin indent on    " required
 
 syntax on
 set number
+set tabstop=2
 
 " show vim airline at all times
 set laststatus=2
@@ -36,3 +37,6 @@ let g:airline_powerline_fonts = 1
 set t_Co=256
 let g:airline#extensions#tabline#enabled = 1
 set background=dark
+
+# NERDTree
+map <C-n> :NERDTreeToggle<CR>
