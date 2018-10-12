@@ -4,7 +4,7 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 # install applications
 
 choco install 7zip  -y
-choco install putty -y
+choco install putty.install -y
 choco install nodejs -y
 choco install git --params"/GitAndUnixToolsOnPath /NoShellIntegration"  -y
 choco install openssh  -y
