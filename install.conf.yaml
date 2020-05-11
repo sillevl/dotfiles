@@ -10,7 +10,9 @@
     ~/.gitconfig: gitconfig
     ~/.zshrc: zshrc
     ~/.oh-my-zsh: oh-my-zsh
-    ~/.config/nvim: nvim
+    ~/.config/nvim:
+      create: true
+      path: nvim
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
