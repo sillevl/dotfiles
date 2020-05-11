@@ -13,5 +13,16 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - sudo apt install vim -y
+  - sudo apt install git -y
+  - sudo apt install curl -y
+  - sudo apt install zsh -y
+  - chsh -s $(which zsh)
+  - sudo apt install ranger -y
+  - sudo apt install fzf -y
+  - sudo apt install silversearcher-ag -y
+  - sudo apt install vifm
+  - wget https://github.com/gokcehan/lf/releases/download/r6/lf-linux-amd64.tar.gz -O lf-linux-amd64.tar.gz && tar xvf lf-linux-amd64.tar.gz && chmod +x lf && sudo mv lf /usr/local/bin
   - ["git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim", Installing Vundle]
   - [vim +PluginInstall +qall, Installing Vundle plugins]
+ 
