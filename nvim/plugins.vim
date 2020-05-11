@@ -27,3 +27,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'sheerun/vim-polyglot'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
+
+
+" Declare CoC extensions
+let g:coc_global_extensions = ['coc-explorer']
